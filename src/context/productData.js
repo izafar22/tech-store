@@ -7,7 +7,7 @@ export const items = [
       company: "google",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae dolores veniam quaerat asperiores rem quas quisquam laudantium a laboriosam velit nam, maiores, officiis, animi perferendis. Eos rem temporibus, vero modi a, quo quisquam ullam quidem culpa doloribus sunt repellat!",
-      featured: true,
+      featured: false,
       image: {
         fields: {
           file: { url: "img/pixel.png" }
@@ -75,6 +75,22 @@ export const items = [
       image: {
         fields: {
           file: { url: "img/samsung.png" }
+        }
+      }
+    }
+  },
+  {
+    sys: { id: 5 },
+    fields: {
+      title: "google pixel - black",
+      price: 10,
+      company: "google",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae dolores veniam quaerat asperiores rem quas quisquam laudantium a laboriosam velit nam, maiores, officiis, animi perferendis. Eos rem temporibus, vero modi a, quo quisquam ullam quidem culpa doloribus sunt repellat!",
+      featured: false,
+      image: {
+        fields: {
+          file: { url: "img/pixel.png" }
         }
       }
     }

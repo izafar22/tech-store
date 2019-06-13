@@ -1,9 +1,13 @@
 import React from "react";
+import Products from "../components/ProductsPage/Products";
+import Hero from "../components/Hero";
+import productBcg from "../images/productBcg.webp";
 
 export default function ProductsPage() {
   return (
     <>
-      <h1>Hello from products page</h1>
+      <Hero img={productBcg} />
+      <Products />
     </>
   );
 }
