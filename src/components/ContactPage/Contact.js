@@ -7,7 +7,11 @@ export default function Contact() {
       <div className="row">
         <div className="col-10 mx-auto col-md-6 my-3">
           <Title title="Contact Us" />
-          <form className="mt-5">
+          <form
+            className="mt-5"
+            action="https://formspree.io/imran.zafar@irissoftware.com"
+            method="POST"
+          >
             {/* firstName */}
             <div className="form-group">
               <input
@@ -43,6 +47,14 @@ export default function Contact() {
                 rows="10"
                 placeholder="hello there buddy"
               />
+              {/* submit */}
+              <div className="form-group mt-3">
+                <input
+                  type="submit"
+                  value="Send"
+                  className="form-control bg-primary text-white"
+                />
+              </div>
             </div>
           </form>
         </div>
